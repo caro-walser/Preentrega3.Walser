@@ -1,0 +1,186 @@
+/*Main index*/
+
+main {
+    background-color: $fcolor;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "left left right right";
+    padding: 20px;
+
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    color: $secondcolor;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 7px;
+   
+    div{
+        display: flex;
+        flex-direction:  column;
+        gap: 5px;
+    }
+    
+    label{
+        color: $secondcolor;
+        font-size: 20px;
+        
+       
+    }
+}
+
+
+input{
+    width: 320px;
+    border-radius: 7px;
+    padding: 10px;
+    
+}
+
+input:focus, textarea:focus{
+    background-color: $ffcolor;
+    outline:none;
+
+}
+
+input:hover, textarea:hover{
+    background-color: $scolor;
+    
+    width: 350px;
+
+}
+
+textarea{
+    width: 320px;
+    border-radius: 7px;
+    padding: 10px;
+    resize: none;
+    transition: 0.5s;
+}
+
+
+
+/*Hero left index*/
+
+.hero-left{
+    grid-area: left;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 100px;
+
+
+
+   & h1{
+    font-size: 40px;
+    color: $secondcolor;
+    }
+
+   & p{
+    font-size: 30px;
+    color: $secondcolor;
+    }
+
+   & a{
+    background-color: $firstcolor;
+    border: 2px solid $secondcolor;
+    padding: 15px;
+    min-width: 170px;
+    max-width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    color: $secondcolor;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .3s;
+
+    &:hover {
+        background-color: $secondcolor;
+        border: 2px solid $firstcolor;
+        color: $firstcolor;
+    }
+    }
+
+
+} 
+
+.hero__left__users{
+    display: flex;
+    height: 120px;
+    align-items: center;
+
+    img{
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 100%;
+        border: 2px solid $firstcolor;
+        transition: .3s;
+    
+        &:hover{
+            margin: 0px;
+            width: 100px;
+            height: 100px;
+        
+        }
+    
+    }
+    
+}
+
+
+
+/*Hero right index*/
+.hero-right{
+    grid-area: right;
+    position: relative;
+    
+    img{
+        
+        min-height: 700px;
+        max-height: 100%;
+        
+        object-fit: cover;
+        border-radius: 15px;
+       
+    }
+
+}
+
+
+.hero__right__title {
+    padding: 20px;
+    background-color: $secondcolor;
+    border-radius: 10px;
+    font-size: 16px;
+    color: $firstcolor;
+    transition: .3s;
+
+    &:hover{
+        background-color: $secondcolor;
+        padding: 20px;
+        font-size: 19px;
+    
+    }
+    
+}
+
+
+.c1 {
+    position: absolute;
+    bottom: 23%;
+    left: -10%;
+      
+}
+
+.c2 {
+    position: absolute;
+    bottom: 10%;
+    left: -7%;
+       
+}

@@ -1,0 +1,9 @@
+@mixin tamanio($width, $height){
+    width: $width;
+    height: $height;
+}
+
+.hero-right{
+   img{ @include tamanio(90%,90%);
+}
+}

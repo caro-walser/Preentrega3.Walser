@@ -1,0 +1,23 @@
+
+
+/*Footer*/
+
+footer{
+    background-color: $firstcolor;
+    text-align: center;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: $secondcolor;
+    padding: 20px;
+
+
+  .btn{ 
+    text-decoration: none;
+    color: $firstcolor;
+    font-size: 24;
+    background-color:$secondcolor
+    ;
+    border-radius: 2px;
+    } 
+
+}

@@ -4,26 +4,29 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Inicio</title>
-	<!-- link a css -->
+    <!--seo-->
+    <title>Pandora abanicos </title>
+    <meta name="description" content=" Pandora abanicos es un emprendimiento donde vas a encontrar variedad de abanicos con diferentes estampas exclusivas">
+    <meta name="keywords" content="abanicos,venta,accesorios,moda ">
+    <link rel="shortcut icon" href="multimedia/favicon.png">
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!--bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- link a css -->
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	
 	<header>
         <nav class="nav"> 
             <div class="nav-brand">
                 <a href="index.html">
                     <img src="multimedia/logo icono-03.png" alt="logo">
                     Pandora Abanicos
-
-                </a>
-                
+                </a>   
             </div>
-           
-            <ul class="nav-list">
-               
+           <ul class="nav-list">
                 <li>
                     <a href="pages/productos.html" class="nav-link">Productos</a>
                 </li>
@@ -37,17 +40,14 @@
                 <li>
                     <a href="pages/contacto.html" class="nav-link">Contacto</a>
                 </li>
-                
-
             </ul>
-        </nav>
-		
+        </nav>		
 	</header>
  <!-- main -->
     <main>
-
-	 <!-- hero left -->
-     <section class="hero-left">
+<!-- hero left -->
+     <section class="hero-left" data-aos="fade-up"
+     data-aos-duration="3000">
         <h1>Bienvenidos a Pandora</h1>
         <p>
             Somos un emprendimiento artesanal de la ciudad de Santa Fe, 
@@ -55,48 +55,44 @@
             darle un toque a tu 
             outfit.
         </p>
-        <a href="">Conocer más</a>
+        <a href="boton">Conocer más</a>
+    
         <div class="hero__left__users">
             <img src="multimedia/img1.png" alt="abanico 1 ">
             <img src="multimedia/img2.png" alt="abanico 2 ">
             <img src="multimedia/img3.png" alt="abanico 3 ">
             <img src="multimedia/img4.png" alt="abanico 4">
-            <img src="multimedia/img5.png" alt="abanico 5">
-           
+            <img src="multimedia/img5.png" alt="abanico 5"> 
         </div>
-        <p>Más de <b> 15 variedades </b> de estampas <br> en nuestros abanicos </br> </p>
-    </section>
+        <p>Más de <b> 15 variedades </b> de estampas  en nuestros abanicos</p>
+       </section>
     <!-- hero right -->
     <section class="hero-right">
-        <img src="multimedia/logo.png" alt="logo">
+        <img src="multimedia/img10.jpg" alt="logo">
         <div class="hero__right__title c1">
             <h2>¿Cómo comprar tu Pandora?</h2>
-            <span class="graybar"></span>
-            <span class="bluebar"></span>
+           
         </div>
         <div class="hero__right__title c2">
             <h2>Nuestro punto de venta</h2>
-            <span class="graybar"></span>
-            <span class="bluebar"></span>
         </div>
     </section>
     </main>
-
 <!-- footer -->
-
     <footer>
         <section class="footer">
-
             <a href="#" class="btn">Instagram</a>
             <a href="#" class="btn">Facebook</a>
             <a href="#" class="btn">Twitter</a>
-           
-
         </section>
         <p>Todos los derechos reservados</p>
-
     </footer>
-
+     <!--bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

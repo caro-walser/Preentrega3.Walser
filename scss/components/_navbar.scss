@@ -1,0 +1,55 @@
+
+.nav {
+    background-color: $secondcolor;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    
+    
+ .nav-brand a{
+     color: $firstcolor;
+     font-size: 20px;
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     transition:.3s;
+ 
+     &:hover{
+     color: $thirdcolor;
+ 
+     }
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit:contain;
+     }
+ 
+ .nav-list{
+     display: flex;
+     text-align: right;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 24px;
+     gap: 20px;
+    
+
+          li{
+          background-color: $firstcolor;
+          padding: 7px;
+          border-radius: 16px;
+             
+           .nav-link{ font-size: 20px;
+                color: $secondcolor;
+                text-decoration: none;
+                transition: .3s;
+           
+                &:hover{
+                    color: $thirdcolor;
+                 }
+            }
+         }
+    }
+} 
+ 

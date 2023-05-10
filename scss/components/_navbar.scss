@@ -3,8 +3,8 @@
     background-color: $secondcolor;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 30px 20px;
+    align-items:flex-end;
+    padding: 5px 15px;
     
     
  .nav-brand a{
@@ -25,6 +25,7 @@
         width: 100px;
         height: 100px;
         object-fit:contain;
+        
      }
  
  .nav-list{
@@ -37,8 +38,9 @@
 
           li{
           background-color: $firstcolor;
-          padding: 7px;
+          padding: 1px;
           border-radius: 16px;
+          margin: 5px;
              
            .nav-link{ font-size: 20px;
                 color: $secondcolor;
